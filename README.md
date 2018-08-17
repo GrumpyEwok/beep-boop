@@ -1,12 +1,13 @@
-# _{Application Name}_
+# _{Beep-Boop!}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{A Counting Game}_
 
-#### By _**{List of contributors}**_
+#### By _**Evan Filkins**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Beep-Boop is a simple game with mathematical rules. It involves couning._
+
 ## Specifications
 * _Program replaces 0 with "Beep!"_
   * _Example Input: 0_
@@ -27,11 +28,11 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 
 ## Setup/Installation Requirements
-* _Simply clone [this repository](#) and host._
+* _Simply clone [this repository](https://github.com/GrumpyEwok/beep-boop.git) and host._
 * _It is important to note that the application uses a bootstrap.css file for ease of styling, in addition to a regular CSS stylesheet. You may acquire the specific version of Boostrap I used [here](https://getbootstrap.com/docs/4.1/getting-started/download/)._
 
 ## Known Bugs
-_Lorem shmipsum._
+_Unfortunately, the program can only replace values it recognizes are not zero, and are divisible by 3._
 
 ## Support and Contact Information
 _Should any issues arise in the use of this application, feel free to contact me [directly](mailto:evanfilkins@gmail.com)._
@@ -39,10 +40,10 @@ _Should any issues arise in the use of this application, feel free to contact me
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_HTML, Bootstrap, CSS, JS._
 
 ### License
 
 *No licensure.*
 
-Copyright (c) 2016 **_EF_**
+Copyright (c) 2018 **_EF_**
