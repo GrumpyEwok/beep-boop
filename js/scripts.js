@@ -7,6 +7,10 @@ var initialInput = $("#userInput").val();
       $("#display-field").show();
       $("#display-field").text("Beep!");
       }
+    else if (initialInput === "1") {
+      $("#display-field").show();
+      $("#display-field").text("Boop!");
+    }
     else {
       $("#display-field").show();
       $("#display-field").text(initialInput);
