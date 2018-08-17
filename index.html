@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css">
-    <link href="css/style.css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Beep-Boop Game!</title>
   </head>
   <body>
     <div class="container">
-      <div cass="jumbotron">
+      <div class="jumbotron">
         <h2>A game, I think!</h2>
       </div>
-      
-
+      <form>
+        <div class="form-group">
+          <label for="userInput">Number:</label>
+          <input class="form-control" id="userInput" type="number" placeholder="Enter your number here.">
+        </div>
+        <button type="submit" class="btn-primary">"Push me!"</button>
+      </form>
     </div>
   </body>
 </html>
