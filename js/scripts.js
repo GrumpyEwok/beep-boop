@@ -1,19 +1,18 @@
 //Front-End
-
 $(document).ready(function(){
   $("#input-form").submit(function(event){
     event.preventDefault();
-
-var numToCount = $("#userInput").val();
-var result = numToCount
-    console.log(numToCount)
-    console.log(result)
-    $("#display-field").show();
-    $("#display-field").text(result);
-
+var initialInput = $("#userInput").val();
+    if (initialInput === "0") {
+      $("#display-field").show();
+      $("#display-field").text("Beep!");
+      }
+    else {
+      $("#display-field").show();
+      $("#display-field").text(initialInput);
+      }
   });
 });
-
 
 
 //Variable Definitions
