@@ -2,29 +2,33 @@
 $(document).ready(function(){
   $("#input-form").submit(function(event){
     event.preventDefault();
-    var initialInput = parseInt($("#userInput").val())
-    var finalResult = beepBoop(initialInput)
+    var initialInput = parseInt($("#userInput").val());
+    var output = beepBoop(initialInput);
 
 
     $("#display-field").show();
-    $("#display-field").text(finalResult);
+    $("#display-field").text(output);
   });
 });
 
 
 // Back-End
 var beepBoop = function(userInput){
-  var result = [];
+  var results = [];
+
+
   for (var i = 0; i <= userInput; i++){
     if (i % 3 === 0 && i !== 0) {
-      result.push("I'm sorry, Dave. I'm afraid I can't do that.")
+      results.push("I'm sorry, Dave. I'm afraid I can't do that.");
     } else {
-    result.push(i)
-    console.log(result)
+      results.push(i).toString();
+    }
   }
-}
+  return results;
 }
 
+// My thought process for the early specs:
+//
     // if (initialInput === "0") {
     //   $("#display-field").show();
     //   $("#display-field").text("Beep!");
