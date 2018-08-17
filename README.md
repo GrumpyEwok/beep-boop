@@ -17,6 +17,13 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _Program replaces 3 with "I'm sorry, Dave. I'm afraid I can't do that."_
   * _Example Input: 3_
   * _Example Output: "I'm sorry, Dave. I'm afraid I can't do that."_
+  * _Program replaces inputs containing both 1 and 0 as digits with "Beep-Boop!"._
+    * _Example Input: 10_
+    * _Example Output: ["Beep-Boop!"]_
+* _Program displays all positive integers (including 0) less than the inputted number in sequential order, up to and including the original number._
+  * _Example Input: 4_
+  * _Example Output: [Beep! Boop!, 2, "I'm sorry, Dave. I'm afraid I can't do that.", 4]_
+* _Program allows user to resubmit a new number, either extending or reducing the length of the result._
 
 
 ## Setup/Installation Requirements
