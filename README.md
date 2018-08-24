@@ -44,7 +44,7 @@ _Should any issues arise in the use of this application, feel free to contact me
 
 ## Technologies Used
 
-_HTML, Bootstrap, CSS, JS._
+_HTML, Bootstrap, CSS, JS/jQuery._
 
 ### License
 
