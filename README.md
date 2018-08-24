@@ -38,9 +38,6 @@ _Beep-Boop is a simple game with mathematical rules. It involves couning._
 * _Simply clone [this repository](https://github.com/GrumpyEwok/beep-boop.git) and host._
 * _It is important to note that the application uses a bootstrap.css file for ease of styling, in addition to a regular CSS stylesheet. You may acquire the specific version of Boostrap I used [here](https://getbootstrap.com/docs/4.1/getting-started/download/)._
 
-## Known Bugs
-_Unfortunately, the program can only replace values it recognizes are not zero, and are divisible by 3._
-
 ## Support and Contact Information
 _Should any issues arise in the use of this application, feel free to contact me [directly](mailto:evanfilkins@gmail.com)._
 
