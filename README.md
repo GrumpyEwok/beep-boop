@@ -1,6 +1,6 @@
-# _{Beep-Boop!}_
+# _Beep-Boop!_
 
-#### _{A Counting Game}_
+#### _A Counting Game_
 
 #### By _**Evan Filkins**_
 
@@ -11,20 +11,27 @@ _Beep-Boop is a simple game with mathematical rules. It involves couning._
 ## Specifications
 * _Program replaces 0 with "Beep!"_
   * _Example Input: 0_
-  * _Example Output: ["Beep!"]_
+  * _Example Output: "Beep!"_
 * _Program replaces 1 with "Boop!"_
   * _Example Input: 1_
-  * _Example Output: ["Boop!"]_
+  * _Example Output: "Beep! Boop!"_
 * _Program replaces 3 with "I'm sorry, Dave. I'm afraid I can't do that."_
   * _Example Input: 3_
-  * _Example Output: "I'm sorry, Dave. I'm afraid I can't do that."_
+  * _Example Output: "Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that."_
 * _Program displays all positive integers (including 0) less than the inputted number in sequential order, up to and including the original number._
   * _Example Input: 4_
-  * _Example Output: [Beep! Boop!, 2, "I'm sorry, Dave. I'm afraid I can't do that.", 4]_
+  * _Example Output: "Beep! Boop! 2. I'm sorry, Dave. I'm afraid I can't do that. 4."_
 * _Program replaces inputs containing both 1 and 0 as digits with "Boop!"._
-    * _Example Input: 10_
-    * _Example Output: ["Boop!"]_
+  * _Example Input: 10_
+  * _Example Output: "Beep! Boop! 2. I'm sorry, Dave. I'm afraid I can't do that. 4. 5. I'm sorry, Dave. I'm afraid I can't do that. 7. 8. I'm sorry, Dave. I'm afraid I can't do that. Boop!"_
 * _Program allows user to resubmit a new number, either extending or reducing the length of the result._
+  * _Example Input:_
+    * 10
+    * 4
+  * _Example output:_
+    * _"Beep! Boop! 2. I'm sorry, Dave. I'm afraid I can't do that. 4. 5. I'm sorry, Dave. I'm afraid I can't do that. 7. 8. I'm sorry, Dave. I'm afraid I can't do that. Boop!"_
+    * _"Beep! Boop! 2. I'm sorry, Dave. I'm afraid I can't do that. 4."_
+
 
 
 ## Setup/Installation Requirements
